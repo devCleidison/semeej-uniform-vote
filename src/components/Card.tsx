@@ -15,7 +15,7 @@ export const Card = ({ data }: CardProps) => {
   const handleVote = () => {
     incrementVote(data.id);
 
-    navigate("/congratulations");
+    setTimeout(() => navigate("/congratulations"), 1000);
   };
 
   return (
