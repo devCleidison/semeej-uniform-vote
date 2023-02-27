@@ -6,7 +6,7 @@ export const Congratulations = () => {
       <iframe
         src="https://giphy.com/embed/fxsqOYnIMEefC"
         className="giphy-embed"
-        width="50%"
+        width="320"
         allowFullScreen
       ></iframe>
     </div>
