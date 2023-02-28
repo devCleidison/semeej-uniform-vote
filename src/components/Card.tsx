@@ -15,11 +15,11 @@ export const Card = ({ data }: CardProps) => {
   const handleVote = () => {
     incrementVote(data.id);
 
-    setTimeout(() => navigate("/congratulations"), 1000);
+    setTimeout(() => navigate("/congratulations"), 500);
   };
 
   return (
-    <div className="flex flex-col gap-1 items-center justify-between w-56 pb-6 bg-neutral-50/5 rounded overflow-hidden">
+    <div className="flex flex-col gap-1 items-center justify-between w-56 max-[1000px]:w-64 pb-6 bg-neutral-50/5 rounded overflow-hidden">
       <img
         src={data.image}
         alt={data.description}
