@@ -7,7 +7,7 @@ export const Home = () => {
       <h1 className="text-2xl text-center mb-6">Vate no fardamento</h1>
 
       <div className="flex justify-between w-full max-w-6xl mx-auto gap-6 max-[1000px]:flex-col">
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col items-center justify-center w-full">
           <h2 className="mb-3">
             Modelo: <span className="text-amber-500">Feminino</span>
           </h2>
@@ -19,7 +19,7 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col items-center justify-center w-full">
           <h2 className="mb-3">
             Modelo: <span className="text-amber-500">Masculino</span>
           </h2>
