@@ -19,11 +19,11 @@ export const Card = ({ data }: CardProps) => {
   };
 
   return (
-    <div className="flex flex-col gap-1 items-center justify-between w-56 max-[1000px]:w-64 pb-6 bg-neutral-50/5 rounded overflow-hidden">
+    <div className="flex flex-col gap-1 items-center justify-between w-64 max-[1000px]:w-64 pb-6 bg-neutral-50/5 rounded overflow-hidden">
       <img
         src={data.image}
         alt={data.description}
-        className="h-72 w-full object-cover"
+        className="h-80 w-full object-cover"
       />
       <h3 className="text-center font-medium pt-3">{data.title}</h3>
       <p className="text-center text-gray text-sm px-2 pb-3">

@@ -12,7 +12,7 @@ export const Home = () => {
             Modelo: <span className="text-amber-500">Feminino</span>
           </h2>
 
-          <div className="flex flex-wrap gap-4 max-[552px]:justify-center">
+          <div className="flex flex-wrap gap-4 max-[575px]:justify-center">
             {uniforms.female.map((item, index) => (
               <Card key={index} data={item} />
             ))}
@@ -24,7 +24,7 @@ export const Home = () => {
             Modelo: <span className="text-amber-500">Masculino</span>
           </h2>
 
-          <div className="flex flex-wrap gap-4 max-[552px]:justify-center">
+          <div className="flex flex-wrap gap-4 max-[575px]:justify-center">
             {uniforms.male.map((item, index) => (
               <Card key={index} data={item} />
             ))}
